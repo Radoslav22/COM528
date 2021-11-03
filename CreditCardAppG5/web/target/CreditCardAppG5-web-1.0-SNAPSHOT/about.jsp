@@ -12,8 +12,8 @@
 <!-- Begin page content -->
 <main role="main" class="container">
     <H1>About</H1>
-</main>
-
+    
+    
 
 
 
