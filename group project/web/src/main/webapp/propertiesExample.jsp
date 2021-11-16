@@ -50,7 +50,7 @@
     <body>
         <h1>Properties Example Jsp</h1>
         <p><%=message %></p>
-        <form action="./propertiesExample.jsp" method="POST">
+        <form action="./home.jsp" method="POST">
             <p>Bank URL <input type="text" name="url" value="<%=url%>"></p>
             <p>Username <input type="text" name="username" value="<%=username%>"></p>
             <p>Expiry Date <input type="text" name="enddate" value="<%=enddate%>"></p>
