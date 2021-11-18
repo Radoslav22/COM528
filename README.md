@@ -44,7 +44,7 @@ The program contains many features such as:
 |------|--------|---------|
 | 1 | Enter app URL into the browser | Directs user to home page | 
 | 2 | User can choose if they want to send, refund or check credit card|  application will change to the appropriate request |
-| 3 | If User enteres the correct card infor | Application checks if the card details are correct and vlaidates it |
+| 3 | If User enteres the correct card info| Application checks if the card details are correct and vlaidates it |
 | 4 | User fails to enter card details | An error message is displayed |
 | 5 | User enters the wrong details | An error message is displayed |
 
