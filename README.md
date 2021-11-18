@@ -67,13 +67,13 @@ The program contains many features such as:
 | --------- | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
 | T1       | User enters in the url for the  application.                | If the server is running it will be redirected to a home page , if not you will either get a 404 error | Pass|
 | T2     | If the user doesn't fill in all the fields a popup will show telling them this field is required.     | Required field is shown to the user when attempting to submit .                                                                               | Pass |
-| T3     | submits a transaction request, with invalid details.                                    | request is rejected leaving an error message.                                                 | Pass |
+| T3     | submits a transaction request, with invalid details.                                    | request is rejected leaving an error message.                                                 | fail |
 | T4     | A transaction request and has funds for this to go through.     |   notified with details of where it went.                                                                                     | Pass |
 | T5     | A transaction is request and does not have the funds. | The transaction fails, with the user told  that the account does not have enough funds .                                 | Pass|
-| T6     | submits a refund request and does have the funds to over this request. | The transaction passes with the user being messaged .                       | Pass |
+| T6     | submits a refund request and does have the funds to over this request. | The transaction passes with the user being messaged .                       | fail |
 | T7     | A Invalid credit card number for the Lunn code check | This fails with the user being notified                        | Pass |
 | T8     | Valid credit card number for the Lunn code check | This passes with the user being notified of the card type.                       | Pass |
-| T9     | User uses pinpad buttons | The button pressed will enter the value .          | Pass|
-| T10     | User uses select button. | The button pressed will change the input . | Pass |
+| T9     | User uses pinpad buttons | The button pressed will enter the value .          | fail|
+| T10     | User uses select button. | The button pressed will change the input . | fail |
 
 
