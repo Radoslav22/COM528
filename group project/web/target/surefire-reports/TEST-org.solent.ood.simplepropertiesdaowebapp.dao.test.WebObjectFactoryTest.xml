@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="org.solent.ood.simplepropertiesdaowebapp.dao.test.WebObjectFactoryTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="org.solent.ood.simplepropertiesdaowebapp.dao.test.WebObjectFactoryTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11+28"/>
     <property name="sun.boot.library.path" value="C:\Program Files\jdk-11\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Radoslav\Desktop\Object Oriented Design and DevelopmentCOM528\gitrepository\COM528\group project\web"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Radoslav\Desktop\Object Oriented Design and DevelopmentCOM528\gitrepository\COM528\group project"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Radoslav\Desktop\Object Oriented Design and DevelopmentCOM528\gitrepository\COM528\group project\web"/>
+    <property name="user.script" value=""/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.dir" value="C:\Users\Radoslav\Desktop\Object Oriented Design and DevelopmentCOM528\gitrepository\COM528\group project"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.runtime.version" value="11+28"/>
-    <property name="netbeans.deploy" value="true"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\Radoslav\AppData\Local\Temp\"/>
@@ -43,11 +42,11 @@
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="11"/>
-    <property name="user.name" value="Radoslav"/>
     <property name="java.class.path" value="C:\Program Files\NetBeans-12.5\netbeans\java\maven\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="user.name" value="Radoslav"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dnetbeans.deploy=true -Dnetbeans.deploy.clientUrlPart=/index.html -Dmaven.ext.class.path=C:\Program Files\NetBeans-12.5\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 package"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans-12.5\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 clean install"/>
     <property name="java.home" value="C:\Program Files\jdk-11"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -59,12 +58,11 @@
     <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2018-09-25"/>
     <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.vendor.version" value="18.9"/>
-    <property name="netbeans.deploy.clientUrlPart" value="/index.html"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.solent.ood.simplepropertiesdaowebapp.dao.test.WebObjectFactoryTest" name="testGetPropertiesDao" time="0.001"/>
+  <testcase classname="org.solent.ood.simplepropertiesdaowebapp.dao.test.WebObjectFactoryTest" name="testGetPropertiesDao" time="0.004"/>
 </testsuite>

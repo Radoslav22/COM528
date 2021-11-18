@@ -25,7 +25,9 @@
     <modules>
 
         <module>client</module>
+        <module>card-checker</module>
         <module>web</module>
+        
     </modules>
 
     <dependencies>

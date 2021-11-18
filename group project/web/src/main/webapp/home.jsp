@@ -65,7 +65,7 @@
         transaction_reply_message = client.transferMoney(fromCard, toCard, amount);
         Logger logger = LogManager.getLogger(TransactionReplyMessage.class); 
         logger.info("Transaction");
-        System.out.println(logger);
+        
     } else if (request.getParameter("refundtransaction") != null) {
         message = "Successful Refund!";
 
@@ -136,7 +136,7 @@
         
         <div class="btn-group-vertical">
 
-            <button>Check Credit card Lunn code</button>
+            <a href="./checkcard.jsp">Check Credit card Lunn code</a>
         </div>
 
         <br>

@@ -1,4 +1,4 @@
-12:06:03.069 [main] DEBUG org.solent.com504.oodd.bank.model.dto.test.JsonDtoTests - Json transactionRequest output:
+14:19:13.959 [main] DEBUG org.solent.com504.oodd.bank.model.dto.test.JsonDtoTests - Json transactionRequest output:
 {
   "fromCard" : {
     "name" : "",
@@ -16,6 +16,6 @@
   },
   "amount" : 100.01
 }
-12:06:03.648 [main] DEBUG org.solent.com504.oodd.password.test.PasswordUtilsTest - password=1234567890 hashedpw=$2a$12$7kxWQ0mtbqwzBk9S6nGiP.A0fgPiHBKO6UJ99hRkKl0M6cVnaBgVq
-12:06:03.966 [main] DEBUG org.solent.com504.oodd.password.test.PasswordUtilsTest - password 1234567890 matches
-12:06:04.565 [main] DEBUG org.solent.com504.oodd.password.test.PasswordUtilsTest - password 1234567890 does not match
+14:19:14.484 [main] DEBUG org.solent.com504.oodd.password.test.PasswordUtilsTest - password=1234567890 hashedpw=$2a$12$iKFE1jpX/i4M36sQ14me7ekjjgJcm6o7JsDdwG9MT/3T/oIoj0Bja
+14:19:14.771 [main] DEBUG org.solent.com504.oodd.password.test.PasswordUtilsTest - password 1234567890 matches
+14:19:15.332 [main] DEBUG org.solent.com504.oodd.password.test.PasswordUtilsTest - password 1234567890 does not match
