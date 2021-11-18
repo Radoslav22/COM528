@@ -37,6 +37,6 @@
         <%
             }
         %>
-
+        <a href="./home.jsp">Back to Home page</a>
     </body>
 </html>

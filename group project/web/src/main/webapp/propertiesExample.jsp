@@ -49,7 +49,8 @@
         <title>Properties Example Jsp</title>
     </head>
     <body>
-        <h1>Properties Example Jsp</h1>
+        <h1>Credit Card App G5</h1>
+        <h2>Please update the properties!</h2>
         <p><%=message %></p>
         
             <p>Bank URL <input type="text" name="url" value="<%=url%>"></p>
