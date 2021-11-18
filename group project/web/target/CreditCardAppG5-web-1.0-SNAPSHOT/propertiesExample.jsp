@@ -38,6 +38,7 @@
         propertiesDao.setProperty("org.solent.ood.simplepropertiesdaowebapp.cvv", cvv);
         propertiesDao.setProperty("org.solent.ood.simplepropertiesdaowebapp.issuenumber", issuenumber);
         
+        
     }
 
 %>
@@ -50,7 +51,7 @@
     <body>
         <h1>Properties Example Jsp</h1>
         <p><%=message %></p>
-        <form action="./home.jsp" method="POST">
+        
             <p>Bank URL <input type="text" name="url" value="<%=url%>"></p>
             <p>Username <input type="text" name="username" value="<%=username%>"></p>
             <p>Expiry Date <input type="text" name="enddate" value="<%=enddate%>"></p>
@@ -59,7 +60,11 @@
             <p>Issue Number<input type="text" name="issuenumber" value="<%=issuenumber%>"></p>
             <input type="hidden" name="action" value="updateProperties">
 
-            <button class="btn" type="submit" >Update Properties</button>
-        </form> 
+            <button class="btn" type="submit"  method="POST" >Update Properties</button><br>
+            <form action="./home.jsp"> 
+                <button>Go to home Page</button>
+            </form> 
+            <%= url %>
+        
     </body>
 </html>
