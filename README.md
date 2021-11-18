@@ -22,7 +22,8 @@ http://localhost:8080/bank/rest
 Below are the instructions on how to get the application up and running:
 
 
- - unzip the zip file 
+ - create new folder
+ - unzip the zip file in the new folder
  - open the project using netbeans 
  - mvn clean install
  - run tomcat server
