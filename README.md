@@ -14,7 +14,10 @@ Muhammed Abdullah
 
 # How to set up the application 
 http://com528bank.ukwest.cloudapp.azure.com:8080/rest 
+
 http://localhost:8080/bank/rest
+
+
 
 Below are the instructions on how to get the application up and running:
 
@@ -25,9 +28,12 @@ Below are the instructions on how to get the application up and running:
  - run tomcat server
  - run web app 
 
+Please note if you want to use the cloud based bank simulator please use this working URL:
 
-working path :
 http://com528bank.ukwest.cloudapp.azure.com:8080/rest 
+
+Please note if you want to use the local based bank simulator please use this URL:
+
 http://localhost:8080/bank/rest
 
 
