@@ -1,22 +1,24 @@
 # COM528
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
-sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
-recusandae alias error harum maxime adipisci amet laborum. Perspiciatis 
-minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit 
-quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur 
-fugiat, temporibus enim commodi iusto libero magni deleniti quod quam 
-consequuntur! Commodi minima excepturi repudiandae velit hic maxime
-doloremque. Quaerat provident commodi consectetur veniam similique ad 
-earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo 
-fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore 
-suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium
-modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam 
-totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam 
-quasi aliquam eligendi, placeat qui corporis!
+The developers and contributors involved in this project were:
+
+Radoslav Takvoryan
+
+Rikin
+
+Nikiten
+
+Muhammed Abdullah
+
+# Using the app
+When the application is running you can access the project [here](http://localhost:8080/). 
+You can navigate the app by using the keypad on the screen or you can also 
+the mouse and keyboard on the device you are running the program. 
+The application runs on google chrome and internet explorer. 
+It also should run on other browsers however it was not tested on 
+them as a result it may cause an error. 
+# Properties
+ - When the program is running the properties below will be in place which must be filled. 
+ - User name – This is the name on the card that the user must fill out.
+ - User card number – This is the Card number that the user must fill out.
+ - User issue number- The issue number that the bank issues once the card details are filled out.
+ - User end date –  Cards end date that must be filled out.
