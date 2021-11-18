@@ -78,6 +78,13 @@ The program contains many features such as:
 
 # Roubust and class diagrams 
 
+![UML class Diagram drawio](https://user-images.githubusercontent.com/72072104/142485741-1daec6ca-1fbb-4afc-a085-899137becd61.png)
+
+
+
+
+
+![UML robustness Diagram drawio](https://user-images.githubusercontent.com/72072104/142485785-b2594fcd-9ae8-4ea9-8c67-1777ddfbf127.png)
 
 
 
