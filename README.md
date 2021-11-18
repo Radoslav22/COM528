@@ -11,7 +11,7 @@ Muhammed Abdullah
 
 # Using the app
 When the application is running you can access the project [here](http://localhost:8080/). 
-You can navigate the app by using the keypad on the screen or you can also 
+You can navigate the app by using the
 the mouse and keyboard on the device you are running the program. 
 The application runs on google chrome and internet explorer. 
 It also should run on other browsers however it was not tested on 
