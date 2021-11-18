@@ -76,4 +76,9 @@ The program contains many features such as:
 | T9     | User uses pinpad buttons | The button pressed will enter the value .          | fail|
 | T10     | User uses select button. | The button pressed will change the input . | fail |
 
+# Roubust and class diagrams 
+
+
+
+
 
