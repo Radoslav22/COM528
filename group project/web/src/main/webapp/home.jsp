@@ -63,6 +63,9 @@
         Double amount = Double.parseDouble(request.getParameter("amount").toString());
 
         transaction_reply_message = client.transferMoney(fromCard, toCard, amount);
+        Logger logger = LogManager.getLogger(TransactionReplyMessage.class); 
+        logger.info("Transaction");
+        System.out.println(logger);
     } else if (request.getParameter("refundtransaction") != null) {
         message = "Successful Refund!";
 
@@ -82,8 +85,11 @@
 
         double amount = Double.parseDouble(request.getParameter("amount").toString());
         transaction_reply_message = client.transferMoney(toCard, fromCard, amount);
+        Logger logger = LogManager.getLogger(TransactionReplyMessage.class); 
+        logger.info("Refund Transaction");
     }
 
+    
 %>
 
 <main role="main" class="container">
