@@ -35,5 +35,26 @@ The system requirements for this application is:
 The program contains many features such as:
 - The app has pin pad where they can use to fill the forms in 
 - The  App has buttons which allows the  user to send, return or check credit card
-- It contains a credit card algorithm validator 
+- It contains a credit card algorithm validator
+# Use cases 
+
+
+
+| procedure | Action | Response|
+|------|--------|---------|
+| 1 | Enter app URL into the browser | Directs user to home page | 
+| 2 | User can choose if they want to send, refund or check credit card|  application will change to the appropriate request |
+| 3 | If User enteres the correct card infor | Application checks if the card details are correct and vlaidates it |
+| 4 | User fails to enter card details | An error message is displayed |
+| 5 | User enters the wrong details | An error message is displayed |
+
+## Admin point of view
+
+|Admin | Action | Response|
+|------|--------|---------|
+| procedure 1 | Admin tries to configure |  Enters correct details and can configure the properties|
+| procedure 2 | Admin views transactions of user | Transactions are viewed using a LogRecord |
+| procedure 3 | Admin enters application | it will recognises the details |
+
+
 
