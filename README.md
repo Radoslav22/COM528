@@ -9,6 +9,33 @@ Nikiten
 
 Muhammed Abdullah
 
+
+
+
+# How to set up the application 
+http://com528bank.ukwest.cloudapp.azure.com:8080/rest 
+http://localhost:8080/bank/rest
+
+Below are the instructions on how to get the application up and running:
+
+
+ - unzip the zip file 
+ - open the project using netbeans 
+ - mvn clean install
+ - run tomcat server
+ - run web app 
+
+
+working path :
+http://com528bank.ukwest.cloudapp.azure.com:8080/rest 
+http://localhost:8080/bank/rest
+
+
+
+
+
+
+
 # Using the app
 When the application is running you can access the project [here](http://localhost:8080/). 
 You can navigate the app by using the
