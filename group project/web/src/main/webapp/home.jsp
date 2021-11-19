@@ -4,7 +4,6 @@
     Author     : cgallen
 --%>
 
-<
 <%@page import="org.solent.ood.simplepropertiesdaowebapp.dao.WebObjectFactory"%>
 <%@page import="org.solent.ood.simplepropertiesdaowebapp.dao.PropertiesDao"%>
 <%@page import="org.solent.com504.oodd.bank.client.impl.BankRestClientImpl" %>

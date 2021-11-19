@@ -53,12 +53,12 @@
         <h2>Please update the properties!</h2>
         <p><%=message %></p>
         
-            <p>Bank URL <input type="text" name="url" value="<%=url%>"></p>
-            <p>Username <input type="text" name="username" value="<%=username%>"></p>
-            <p>Expiry Date <input type="text" name="enddate" value="<%=enddate%>"></p>
-            <p>Card Number <input type="text" name="cardnumber" value="<%=cardnumber%>"></p>
-            <p>CVV<input type="text" name="cvv" value="<%=cvv%>"></p>
-            <p>Issue Number<input type="text" name="issuenumber" value="<%=issuenumber%>"></p>
+            <p>Bank URL <input type="text" name="url" value="<%=url%>" required></p>
+            <p>Username <input type="text" name="username" value="<%=username%>"required></p>
+            <p>Expiry Date <input type="text" name="enddate" value="<%=enddate%>" required></p>
+            <p>Card Number <input type="text" name="cardnumber" value="<%=cardnumber%>" required></p>
+            <p>CVV<input type="text" name="cvv" value="<%=cvv%>" required></p>
+            <p>Issue Number<input type="text" name="issuenumber" value="<%=issuenumber%>" required></p>
             <input type="hidden" name="action" value="updateProperties">
 
             <button class="btn" type="submit"  method="POST" >Update Properties</button><br>
